@@ -21,7 +21,7 @@ Your keys stay in your own Google account and are never saved in the notebook.
 Please do these **before** the lecture so we can start right away:
 
 - [ ] Have a **Google account** (needed to run Colab).
-- [ ] Get **one LLM API key**. The quickest free option is NVIDIA: sign in at [build.nvidia.com](https://build.nvidia.com) and generate a key. OpenAI, Anthropic, Gemini and xAI keys also work.
+- [ ] Get **one LLM API key**. The quickest free option is Google Gemini: sign in with your Google account at [aistudio.google.com/apikey](https://aistudio.google.com/apikey) and create a key (save it as the `GEMINI_API_KEY` secret and set `PROVIDER = "gemini"` in the notebook). OpenAI, Anthropic, xAI and NVIDIA ([build.nvidia.com](https://build.nvidia.com)) keys also work.
 - [ ] Open the **Open in Colab** link above and check that the notebook loads.
 - [ ] Add your key as a **Colab Secret** (🔑 icon, left sidebar), named exactly as in the table below, with **Notebook access** switched on.
 - [ ] Run the first two cells (setup and imports) to confirm that the install and download work.
