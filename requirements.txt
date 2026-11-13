@@ -1,0 +1,7 @@
+entsoe-py>=0.7
+openai>=1.40
+pandas>=2.0
+numpy
+matplotlib
+pyarrow
+python-dotenv
