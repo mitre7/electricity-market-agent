@@ -16,6 +16,17 @@ Your keys stay in your own Google account and are never saved in the notebook.
 
 **ENTSO-E API access:** register at transparency.entsoe.eu, then email `transparency@entsoe.eu` with the subject *"Restful API access"*. Approval can take a few days. Your token then appears under *My Account Settings → Web API Security Token*.
 
+## Before the session (checklist)
+
+Please do these **before** the lecture so we can start right away:
+
+- [ ] Have a **Google account** (needed to run Colab).
+- [ ] Get **one LLM API key**. The quickest free option is NVIDIA: sign in at [build.nvidia.com](https://build.nvidia.com) and generate a key. OpenAI, Anthropic, Gemini and xAI keys also work.
+- [ ] Open the **Open in Colab** link above and check that the notebook loads.
+- [ ] Add your key as a **Colab Secret** (🔑 icon, left sidebar), named exactly as in the table below, with **Notebook access** switched on.
+- [ ] Run the first two cells (setup and imports) to confirm that the install and download work.
+- [ ] *(Optional)* Request an ENTSO-E API key. Approval can take days, and without it the notebook uses the bundled cached data (7 days).
+
 ## Data resolution
 
 The notebook uses the native **15-minute** day-ahead resolution (96 intervals per day; 92 / 100 on DST days) and nothing is averaged. Only delivery days from **2025-10-01** onwards are supported, because earlier days were hourly. The bundled cache holds 7 such days.
