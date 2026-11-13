@@ -2,7 +2,7 @@
 
 Hands-on notebook for the lecture **Agentic AI in Energy**. You build an LLM agent that analyses German (DE-LU) day-ahead electricity prices, renewable generation, demand and forecast errors using data from the [ENTSO-E Transparency Platform](https://transparency.entsoe.eu). It then writes a market briefing in which every claim cites its evidence.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USER/electricity-market-agent/blob/main/electricity_market_agent.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mitre7/electricity-market-agent/blob/main/electricity_market_agent.ipynb)
 
 ## For participants
 
@@ -43,6 +43,6 @@ scripts/build_cache.py           rebuild / extend the cache (15-minute data)
 
 ## For the instructor
 
-- Push this folder to a **public** GitHub repo. Replace `YOUR-GITHUB-USER` in this README and in `REPO_URL` (section 0 of the notebook).
+- Push this folder to a **public** GitHub repo and make sure the username in the Colab badge (this README) and in `REPO_URL` (section 0 of the notebook) matches.
 - Add cached dates: `ENTSOE_API_KEY=... python scripts/build_cache.py 2026-11-12`. Each date takes about 1-2 minutes.
 - Run locally: `pip install -r requirements.txt jupyter`, put keys in a `.env` file (git-ignored), then `jupyter lab`.
